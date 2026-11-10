@@ -1,0 +1,100 @@
+/* Lawrence Annor */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.hero {
+    background: linear-gradient(to right, #2c7a7b, #319795);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero button {
+    background-color: white;
+    color: #2c7a7b;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #dddddd;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    min-width: 250px;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px gray;
+}
+
+.contact {
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+input,
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #163a5b;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
